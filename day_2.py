@@ -1,10 +1,10 @@
 lottery  = "hello coders"
 # 'h' or 'e' or 'o' or 'c' or 'd'
-
+print(lottery[0])
 print("choose correct character of the word '",lottery,"' to win the lottery")
 inputs = input(" ").lower()
 
-if inputs == "h" or inputs == "e" or inputs == "o" or inputs == "c" or inputs == "d":
+if inputs == lottery[0] or inputs == lottery[1] or inputs == lottery[4] or inputs == lottery[6] or inputs == lottery[8]:
     print("congratulation,you win thwe lottery")
 else:
     print("sorry, You didn't win the lottery")
