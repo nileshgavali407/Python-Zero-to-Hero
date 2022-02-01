@@ -1,6 +1,5 @@
 lottery  = "hello coders"
 # 'h' or 'e' or 'o' or 'c' or 'd'
-print(lottery[0])
 print("choose correct character of the word '",lottery,"' to win the lottery")
 inputs = input(" ").lower()
 
