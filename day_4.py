@@ -1,3 +1,10 @@
+# Day 3 Assignment:
+
+# Define a function which will take a number as argument and return its factorial.
+
+# Call the function to print factorial of any number(integer).
+
+
 def factorial(num):
     factorial = 1    
     if num < 0:    
